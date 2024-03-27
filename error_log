@@ -1,0 +1,130 @@
+[12-Apr-2023 11:21:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:21:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:21:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:29:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:29:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:29:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:29:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:30:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shooops2_shooops.translations' doesn't exist in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select `lang_va...')
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select `lang_va...', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select `lang_va...', Array, Object(Closure))
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select `lang_va...', Array, Object(Closure))
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Quer in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:31:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shooops2_shooops.translations' doesn't exist in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select `lang_va...')
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select `lang_va...', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select `lang_va...', Array, Object(Closure))
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select `lang_va...', Array, Object(Closure))
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Quer in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:31:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shooops2_shooops.translations' doesn't exist in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:368
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(368): PDO->prepare('select `lang_va...')
+#1 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(705): Illuminate\Database\Connection->Illuminate\Database\{closure}('select `lang_va...', Array)
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\Database\Connection->runQueryCallback('select `lang_va...', Array, Object(Closure))
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(376): Illuminate\Database\Connection->run('select `lang_va...', Array, Object(Closure))
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Quer in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[12-Apr-2023 11:32:49 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[12-Apr-2023 11:33:03 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[12-Apr-2023 11:33:06 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[12-Apr-2023 11:33:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[12-Apr-2023 11:33:24 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[12-Apr-2023 11:33:34 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[12-Apr-2023 11:33:39 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/shooops2/public_html/storage/framework/views/9c84dd25058509dfc113a1c11a7cc04eafa04b99.php(40): route('home')
+#2 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/shooops2/...')
+#3 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/shooops2/...', Array)
+#5 /home/shooops2/public_html/vendor/laravel/framework/src/Ill in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[29-Apr-2023 17:25:59 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32768 bytes) in /home/shooops2/public_html/vendor/mpdf/mpdf/src/Mpdf.php on line 18335
+[29-Apr-2023 17:26:02 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/shooops2/public_html/vendor/mpdf/mpdf/src/Mpdf.php on line 20560
+[29-Apr-2023 18:34:18 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 81920 bytes) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Cache/FileStore.php on line 271
+[30-Apr-2023 00:03:50 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 81920 bytes) in /home/shooops2/public_html/vendor/laravel/framework/src/Illuminate/Cache/FileStore.php on line 271
