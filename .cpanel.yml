@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/shooops2/public_html
+    - /bin/cp -r /home/shooops2/repositories/moe/* $DEPLOYPATH
